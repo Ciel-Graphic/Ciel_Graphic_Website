@@ -505,6 +505,16 @@ button[type=submit]:active{
 
 @media (max-width: 600px) {
 
+    body{
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .body::-webkit-scrollbar {
+        display: none;
+    }
+
+  
     h1{
         font-size: 50px;
         margin: 0;
